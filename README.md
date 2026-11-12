@@ -16,6 +16,10 @@ També hem configurat les màquines:
 
 ## Configuracions — Fase 1: connexió a Internet
 Hem configurat el client Ubuntu (`192.168.20.10/24`) i el servidor (`192.168.10.1`), i hem habilitat la redirecció IPv4 a la màquina firewall. Així, els equips poden connectar-se a la xarxa i sortir a Internet. També hem documentat la configuració al fitxer `yaml/xarxa_maquines.yaml`. Cada equip té o tindrà el seu xml identificatiu. Fase 1 completada.
+
+## Actualització — 12 de novembre
+Totes les màquines ja estan configurades correctament i hem començat la fase 2 del projecte: fer la pàgina web en HTML. Ja n’hem creat una primera versió senzilla.
+
 ## Incidències i solucions:
 1. xml mal configurat:
 <?xml version="1.0" encoding="UTF-8"?>
